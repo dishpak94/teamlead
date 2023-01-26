@@ -7,7 +7,21 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         mousewhell: true,
         keybord: true,
+        breakpoints: {
 
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 20
+            },
+            480: {
+                slidesPerView: 1,
+                spaceBetween: 20
+            },
+            640: {
+                slidesPerView: 3,
+                spaceBetween: 40
+            }
+        }
     })
 
     var sec = 1800,
